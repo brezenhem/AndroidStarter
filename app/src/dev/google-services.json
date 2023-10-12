@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "940817372809",
+    "firebase_url": "https://vtm-fair-app.firebaseio.com",
+    "project_id": "vtm-fair-app",
+    "storage_bucket": "vtm-fair-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940817372809:android:c4e4cff1901bac07205858",
+        "android_client_info": {
+          "package_name": "de.vtm_fair.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940817372809-71hmat13c8ukoahgaht5bmh50q4lf6l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3rkQ_CrX809I8Hmf73t1VswZVpLKBn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940817372809-71hmat13c8ukoahgaht5bmh50q4lf6l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940817372809:android:5f6460216303ee62205858",
+        "android_client_info": {
+          "package_name": "de.vtm_fair.app.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940817372809-71hmat13c8ukoahgaht5bmh50q4lf6l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3rkQ_CrX809I8Hmf73t1VswZVpLKBn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940817372809-71hmat13c8ukoahgaht5bmh50q4lf6l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
