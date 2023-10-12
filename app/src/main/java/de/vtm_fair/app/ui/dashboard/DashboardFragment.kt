@@ -1,5 +1,6 @@
 package de.vtm_fair.app.ui.dashboard
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +10,7 @@ import androidx.navigation.fragment.navArgs
 import de.vtm_fair.app.R
 import de.vtm_fair.app.databinding.FDashboardBinding
 import de.vtm_fair.app.ui.BaseFragment
+import de.vtm_fair.app.ui.second.SecondActivity
 import viewLifecycle
 import javax.inject.Inject
 
@@ -33,6 +35,9 @@ class DashboardFragment : BaseFragment(), DashboardContract.View {
         binding.requestVehicleData.setOnClickListener { presenter.requestData() }
         binding.logout.setOnClickListener {
             findNavController().navigate(DashboardFragmentDirections.actionDashboardFragmentToAuthenticationFragment())
+        }
+        binding.button2.setOnClickListener {
+            startActivity(Intent(activity, SecondActivity::class.java))
         }
     }
 

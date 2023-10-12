@@ -23,6 +23,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".ui.second.SecondActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
         <service
             android:name=".ui.fcm.AppFirebaseMessagingService"
             android:exported="false">
